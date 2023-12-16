@@ -1,0 +1,32 @@
+* {
+    background-color: rgb(238, 242, 255);
+}
+
+ul {
+    list-style: none;
+}
+/* Header */
+
+h1, h2, h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    color:rgb(41, 64, 87);
+}
+
+/* Navigation */
+
+nav ul {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+/* Content */
+
+#about-me img {
+    border-radius: 50%;
+    width: 25%;
+    display: inline;
+}
+
+/* Footer */
+
+/* Media Queries */
