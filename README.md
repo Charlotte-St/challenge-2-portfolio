@@ -1,12 +1,14 @@
 # challenge-2-portfolio
 Challenge 2: Professional Portfolio
 
-##Description
+## Description
 
-##Installation
+## Installation
 
-##Usage
+## Usage
 
-##Credits
+## Credits
 
-##License
+normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css
+
+## License
