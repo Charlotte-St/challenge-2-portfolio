@@ -2,7 +2,6 @@
     background-color: rgb(238, 242, 255);
     color: rgb(41, 64, 87);
     font-family: Helvetica, Arial, sans-serif;
-    justify-content: center;
 }
 
 ul {
@@ -11,58 +10,62 @@ ul {
 
 /* Header */
 header {
- margin: 20px 10px 20px 10px;
- max-width: 50%;
- display: flex;
+display: flex;
+justify-content: flex-start;
  flex-wrap: wrap;
+ padding: 60px;
 }
 
 h1, h2, h3 {
     font-family: Helvetica, Arial, sans-serif;
     color:rgb(41, 64, 87);
-    margin-bottom: 20px;
+    padding: 60px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 /* Navigation */
 nav { 
     display: flex;
+    justify-content: flex-end;
     flex-direction: row;
+    align-items: flex-end;
 }
 
-/* nav ul li {
-    display: flex;
-    flex-direction: row;
-    margin: 5px 5px 5px 5px;
-} */
-
 /* Content */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3;
+}
 
 #about-me {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex: 1 0 200px;
+    padding: 10 px;
+    text-align: left;
+    border-style: solid;
+    border-width: 10px;
 }
 
 #about-me img {
     border-radius: 50%;
     width: 15%;
-    display: inline;
 }
 
 #applications {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 80%;
+    flex: 1 0 500px;
+    padding: 10 px;
+    text-align: left;
+    border-style: solid;
+    border-width: 10px;
 }
 
 .app {
+    flex: 1 0 200px;
+    padding: 10 px;
+    text-align: left;
+    border-style: solid;
     border-width: 10px;
-    border-color: black;
-    border-style: dashed;
-    width: 30%;
-    display: flex;
-    flex-grow: 1;
 }
 
 #applications img {
