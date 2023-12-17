@@ -11,4 +11,6 @@ Challenge 2: Professional Portfolio
 
 normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css
 
+Icons for Github and LinkedIn provided by [Font Awesome](https://fontawesome.com/)
+
 ## License
