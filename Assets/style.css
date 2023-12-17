@@ -11,6 +11,16 @@ li {
     list-style-type: none;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    display: inline;
+    justify-content: space-between;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -57,4 +67,8 @@ section header {
 
 .app:nth-of-type(1){
     flex-grow: 1;
+}
+
+address {
+    line-height: 1.3rem;
 }
