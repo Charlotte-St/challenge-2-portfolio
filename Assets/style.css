@@ -1,9 +1,10 @@
 * {
     background-color: papayawhip;
     color:darkslategray;
+    font-family: Helvetica, Arial, sans-serif;
 }
 body {
-    margin: 0;
+    margin: 10%;
 }
 
 li {
@@ -27,9 +28,9 @@ section{
 
 section header {
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     padding: 40 px;
-    margin: 100px;
+    margin: 40px;
 }
 
 #about-me img {
@@ -44,7 +45,7 @@ section header {
     flex-wrap: wrap;
 }
 .app {
-    flex: 1 0 200px;
+    flex: 0 0 10%;
     padding: 10px;
     border-style: dotted;
     border-radius: 10 px;
@@ -54,6 +55,6 @@ section header {
     max-width: 60%;
 }
 
-.app:nth-child(first){
-    flex-grow: 3;
+.app:nth-of-type(1){
+    flex-grow: 1;
 }
