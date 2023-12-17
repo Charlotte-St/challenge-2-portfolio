@@ -1,5 +1,5 @@
 * {
-    background-color: papayawhip;
+    background-color: rgb(211, 211, 212);
     color:darkslategray;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -104,10 +104,17 @@ main {
     justify-content: space-around;
   }
     
+.app {
+    border: 1px solid;
+}
+
   .app:nth-child(1) {
-    background-color: mediumturquoise;
+   /* background-color: mediumturquoise; */
     width: 90%;
     margin-bottom: 30px;
+    /*border: 4px;
+    border-style: solid;
+    border-color: rgb(211, 211, 212); */
   }
 
   .app:not(:nth-child(1)){
@@ -115,6 +122,7 @@ main {
     padding: 30px;
     width: 30%;
     margin-bottom: 30px;
+    min-width: 200px;
   }
 
 /* .app:not:nth-child(1) {
