@@ -7,6 +7,14 @@ body {
     margin: 10%;
 }
 
+h2 {
+    text-align: left;
+}
+
+h3 {
+    text-align: center;
+}
+
 li {
     list-style-type: none;
 }
@@ -41,17 +49,25 @@ section header {
     /*flex-wrap: wrap;
     padding: 40px;
     margin: 40px;
+} */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
 }
 
 #about-me img {
     justify-content: left;
     border-radius: 15%;
     width: 15%;
+    float:left;
 }
 
+/*
 #applications {
     display: flex;
-    /* flex-direction: row; 
+    flex-direction: row; 
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -64,12 +80,12 @@ section header {
     display: inline-block;
     flex-wrap: wrap;
     
-}
+} */
 
 .app a img {
-    max-width: 60%;
+    max-width: 100%;
 }
-
+/*
 .container {
     display: flex;
     
@@ -78,23 +94,24 @@ section header {
     width: 100%;
     border-style: solid;
     border-radius: 10px; 
-}*/ 
+} */
 
 .container{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
     justify-content: space-around;
   }
     
   .app:nth-child(1) {
     background-color: mediumturquoise;
-    width: 100%;
+    width: 90%;
   }
 
   .app:not(:nth-child(1)){
     background-color:red;
     padding: 30px;
+    width: 30%;
   }
 
 /* .app:not:nth-child(1) {
