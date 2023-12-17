@@ -1,10 +1,21 @@
+* {
+    background-color: papayawhip;
+    color:darkslategray;
+}
 body {
     margin: 0;
 }
+
+li {
+    list-style-type: none;
+}
+
 main {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
 }
 
 section{
@@ -16,8 +27,15 @@ section{
 
 section header {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     padding: 40 px;
+    margin: 100px;
+}
+
+#about-me img {
+    justify-content: left;
+    border-radius: 15%;
+    width: 15%;
 }
 
 #applications {
@@ -25,10 +43,17 @@ section header {
     flex-direction: row;
     flex-wrap: wrap;
 }
-
 .app {
     flex: 1 0 200px;
     padding: 10px;
     border-style: dotted;
     border-radius: 10 px;
+}
+
+.app a img {
+    max-width: 60%;
+}
+
+.app:nth-child(first){
+    flex-grow: 3;
 }
