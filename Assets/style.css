@@ -4,7 +4,7 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 body {
-    margin: 10%;
+    margin: 5%;
 }
 
 h2 {
@@ -13,6 +13,10 @@ h2 {
 
 h3 {
     text-align: center;
+}
+
+a {
+    text-decoration: none;
 }
 
 li {
@@ -106,19 +110,21 @@ main {
     
 .app {
     border: 1px solid;
+    border-color: darkslategray;
 }
 
   .app:nth-child(1) {
    /* background-color: mediumturquoise; */
     width: 90%;
     margin-bottom: 30px;
+    padding: 30px;
     /*border: 4px;
     border-style: solid;
     border-color: rgb(211, 211, 212); */
   }
 
   .app:not(:nth-child(1)){
-    background-color:red;
+    /* background-color:red; */
     padding: 30px;
     width: 30%;
     margin-bottom: 30px;
@@ -137,4 +143,11 @@ main {
 
 address {
     line-height: 1.3rem;
+}
+
+@media screen and (max-width: 480px) {
+    .container { max-width: 80%; }
+    .app:not(:nth-child(1)) {
+        max-width: 100%;
+    }
 }
