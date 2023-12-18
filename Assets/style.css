@@ -50,6 +50,7 @@ main {
 #about-me {
     line-height: 1.3rem;
 }
+
 #about-me img {
     justify-content: left;
     border-radius: 15%;
@@ -80,7 +81,6 @@ main {
 }
 
   .app:nth-child(1) {
-   /* background-color: mediumturquoise; */
     width: 90%;
     margin-bottom: 30px;
     padding: 30px;
