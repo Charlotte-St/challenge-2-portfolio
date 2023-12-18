@@ -33,6 +33,13 @@ nav ul li {
     justify-content: space-between;
 }
 
+.nav-list {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
 /* main {
     display: flex;
     flex-direction: column;
@@ -88,6 +95,10 @@ main {
 } */
 
 .app a img {
+    max-width: 100%;
+}
+
+.app img {
     max-width: 100%;
 }
 /*
