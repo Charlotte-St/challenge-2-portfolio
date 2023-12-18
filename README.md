@@ -1,9 +1,9 @@
-# challenge-2-portfolio
-Challenge 2: Professional Portfolio
+# personal-professional-portfolio-page
+Challenge 2: Personal Professional Portfolio Page
 
 ## Description
 
-This web document is a portfolio page for me. It uses CSS to style the page including flexbox and a media query. 
+This web document is a personal professional portfolio page for me. It uses CSS to style the page including flexbox and a media query. 
 
 ## Installation
 
@@ -11,7 +11,7 @@ N/A
 
 ## Usage
 
-This porfolio page is meant to display my applications and contact information. 
+This porfolio page is displays a personal statement and photo, my applications, and my contact information. It is intended to provide users with information about me, links to my work, and information on how to contact me.
 
 ## Credits
 
