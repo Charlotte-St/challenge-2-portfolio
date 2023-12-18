@@ -1,3 +1,4 @@
+/* Whole Body */
 * {
     background-color: rgb(211, 211, 212);
     color:darkslategray;
@@ -22,7 +23,7 @@ a {
 li {
     list-style-type: none;
 }
-
+/* Navigation */
 nav {
     display: flex;
     flex-direction: row;
@@ -39,29 +40,7 @@ nav ul li {
     margin: 0;
     padding: 0;
 }
-
-/* main {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 90%;
-    justify-content: center;
-}
-
-section{
-    flex: 1 0 200px;
-    padding: 10px;
-    border-style: solid;
-    border-radius: 10px;
-}
-
-section header {
-    display: flex;
-    /*flex-wrap: wrap;
-    padding: 40px;
-    margin: 40px;
-} */
-
+/* Main Content */
 main {
     display: flex;
     flex-wrap: wrap;
@@ -76,24 +55,6 @@ main {
     margin: 10px;
 }
 
-/*
-#applications {
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.app {
-    flex: 0 0 100%;
-    padding: 10px;
-    border-style: dotted;
-    border-radius: 10 px;
-    display: inline-block;
-    flex-wrap: wrap;
-    
-} */
-
 .app a img {
     max-width: 100%;
 }
@@ -101,16 +62,6 @@ main {
 .app img {
     max-width: 100%;
 }
-/*
-.container {
-    display: flex;
-    
-}
-.app:nth-child(1){
-    width: 100%;
-    border-style: solid;
-    border-radius: 10px; 
-} */
 
 .container{
     display: flex;
@@ -135,26 +86,17 @@ main {
   }
 
   .app:not(:nth-child(1)){
-    /* background-color:red; */
     padding: 30px;
     width: 30%;
     margin-bottom: 30px;
     min-width: 200px;
   }
 
-/* .app:not:nth-child(1) {
-    width: 30%;
-    background-color: red;
-}
- */
-
-/* .container:not(:first-child) {
-    flex: 1;
-} */
-
 address {
     line-height: 1.3rem;
 }
+
+/* Media query */
 
 @media screen and (max-width: 480px) {
     .container { max-width: 80%; }
