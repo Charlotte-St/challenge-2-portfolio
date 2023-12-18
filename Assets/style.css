@@ -47,20 +47,15 @@ main {
     width: 90%;
 }
 
+#about-me {
+    line-height: 1.3rem;
+}
 #about-me img {
     justify-content: left;
     border-radius: 15%;
     width: 15%;
     float:left;
     margin: 10px;
-}
-
-.app a img {
-    max-width: 100%;
-}
-
-.app img {
-    max-width: 100%;
 }
 
 .container{
@@ -73,6 +68,15 @@ main {
 .app {
     border: 1px solid;
     border-color: darkslategray;
+    line-height: 1.3rem;
+}
+
+.app a img {
+    max-width: 100%;
+}
+
+.app img {
+    max-width: 100%;
 }
 
   .app:nth-child(1) {
