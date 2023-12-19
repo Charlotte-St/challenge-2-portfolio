@@ -46,6 +46,11 @@ main {
     width: 90%;
 }
 
+section {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
 #about-me {
     line-height: 1.3rem;
 }
@@ -58,7 +63,6 @@ main {
     margin: 10px;
 }
 
-/* 1st app displays larger than other apps*/
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -75,6 +79,9 @@ main {
 .app img {
     max-width: 100%;
 }
+
+/* 1st app displays larger than other apps using flexbox*/
+
 
 .app:nth-child(1) {
     width: 100%;
