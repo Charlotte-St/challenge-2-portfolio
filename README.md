@@ -15,7 +15,7 @@ This porfolio page is displays a personal statement and photo, my applications, 
 
 ## Credits
 
-[normalize.css v8.0.1 Copyright © Nicolas Gallagher and Jonathan Neal](github.com/necolas/normalize.css) used under an MIT License 
+[normalize.css v8.0.1 Copyright © Nicolas Gallagher and Jonathan Neal](https://github.com/necolas/normalize.css) used under an MIT License 
 
 Icons for Github and LinkedIn provided by [Font Awesome](https://fontawesome.com/). 
 
